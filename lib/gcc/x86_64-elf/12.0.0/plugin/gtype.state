@@ -36483,7 +36483,7 @@
   nil )
  (!pair  "ix86_previous_fndecl"
   (!type already_seen 23)
-  (!srcfileloc  "config/i386/i386-options.c" 2873)
+  (!srcfileloc  "config/i386/i386-options.c" 2876)
   nil )
  (!pair  "vselect_insn"
   (!type already_seen 295)
