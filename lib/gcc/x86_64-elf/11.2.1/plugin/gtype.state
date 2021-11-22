@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "11.2.1 20211121")
+(!version  "11.2.1 20211122")
 (!srcdir  "../../gcc/gcc")
 (!languages 11 ada brig c cp d fortran go jit lto objc objcp)
 (!fileslist 225
@@ -24835,7 +24835,7 @@
   nil 0 nil nil )
  
  (!type struct 1618 nil  gc_used "dllimport_hasher"
-  (!srcfileloc  "config/i386/i386.c" 11574)
+  (!srcfileloc  "config/i386/i386.c" 11604)
   (!fields 0 )
   nil 2047 nil nil )
  
@@ -24844,11 +24844,11 @@
    (!type already_seen 1619)
   )
   gc_pointed_to "hash_table<dllimport_hasher>"
-  (!srcfileloc  "config/i386/i386.c" 11574)
+  (!srcfileloc  "config/i386/i386.c" 11604)
   (!fields 1 
    (!pair  "dllimport_hasher"
     (!type already_seen 1618)
-    (!srcfileloc  "config/i386/i386.c" 11574)
+    (!srcfileloc  "config/i386/i386.c" 11604)
     nil )
   )
  )
@@ -31359,11 +31359,11 @@
   nil )
  (!pair  "dllimport_hasher"
   (!type already_seen 1618)
-  (!srcfileloc  "config/i386/i386.c" 11574)
+  (!srcfileloc  "config/i386/i386.c" 11604)
   nil )
  (!pair  "hash_table<dllimport_hasher>"
   (!type already_seen 1619)
-  (!srcfileloc  "config/i386/i386.c" 11574)
+  (!srcfileloc  "config/i386/i386.c" 11604)
   nil )
  (!pair  "omp_declare_variant_alt_hasher"
   (!type already_seen 1604)
@@ -35711,11 +35711,11 @@
   nil )
  (!pair  "ix86_tls_stack_chk_guard_decl"
   (!type already_seen 23)
-  (!srcfileloc  "config/i386/i386.c" 21694)
+  (!srcfileloc  "config/i386/i386.c" 21724)
   nil )
  (!pair  "dllimport_map"
   (!type already_seen 1620)
-  (!srcfileloc  "config/i386/i386.c" 11574)
+  (!srcfileloc  "config/i386/i386.c" 11604)
   (!options 
    (!option cache string  "")
   )
