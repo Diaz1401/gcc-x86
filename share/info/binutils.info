@@ -42,7 +42,7 @@ Introduction
 ************
 
 This brief manual contains documentation for the GNU binary utilities
-(Cat•BinUtils) version 2.37.50:
+(ChokiBinUtils) version 2.37.50:
 
    This document is distributed under the terms of the GNU Free
 Documentation License version 1.3.  A copy of the license is included in
@@ -5197,7 +5197,7 @@ recommend you contact that organization first.
 individuals in the file 'etc/SERVICE' in the GNU Emacs distribution.
 
    In any event, we also recommend that you send bug reports for the
-binary utilities to <https://www.sourceware.org/bugzilla/>.
+binary utilities to <https://sourceware.org/bugzilla/>.
 
    The fundamental principle of reporting bugs usefully is this: *report
 all the facts*.  If you are not sure whether to state a fact or leave it
@@ -6011,35 +6011,35 @@ Binutils Index
 
 Tag Table:
 Node: Top1834
-Node: ar3556
-Node: ar cmdline6890
-Node: ar scripts20012
-Node: nm25698
-Node: objcopy41070
-Node: objdump81918
-Node: ranlib117204
-Node: size118803
-Node: strings122772
-Node: strip128322
-Node: c++filt138164
-Ref: c++filt-Footnote-1144025
-Node: addr2line144131
-Node: windmc149809
-Node: windres153468
-Node: dlltool160038
-Node: def file format173035
-Node: readelf175565
-Node: elfedit193853
-Node: Common Options197279
-Node: Selecting the Target System198313
-Node: Target Selection199241
-Node: Architecture Selection201222
-Node: debuginfod202050
-Node: Reporting Bugs202809
-Node: Bug Criteria203571
-Node: Bug Reporting204124
-Node: GNU Free Documentation License210995
-Node: Binutils Index236155
+Node: ar3555
+Node: ar cmdline6889
+Node: ar scripts20011
+Node: nm25697
+Node: objcopy41069
+Node: objdump81917
+Node: ranlib117203
+Node: size118802
+Node: strings122771
+Node: strip128321
+Node: c++filt138163
+Ref: c++filt-Footnote-1144024
+Node: addr2line144130
+Node: windmc149808
+Node: windres153467
+Node: dlltool160037
+Node: def file format173034
+Node: readelf175564
+Node: elfedit193852
+Node: Common Options197278
+Node: Selecting the Target System198312
+Node: Target Selection199240
+Node: Architecture Selection201221
+Node: debuginfod202049
+Node: Reporting Bugs202808
+Node: Bug Criteria203570
+Node: Bug Reporting204123
+Node: GNU Free Documentation License210990
+Node: Binutils Index236150
 
 End Tag Table
 
