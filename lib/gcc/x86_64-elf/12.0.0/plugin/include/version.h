@@ -9,8 +9,8 @@
 BASEVER, DATESTAMP, DEVPHASE, and REVISION are defined by the
 Makefile.  */
 
-#define version_string "12.0.0 20211126 (experimental)"
-#define pkgversion_string "(ChokiGCC) "
+#define version_string "12.0.0 20211128 (experimental)"
+#define pkgversion_string "(CatGCC) "
 
 /* This is the location of the online document giving instructions for
 reporting bugs.  If you distribute a modified version of GCC,
