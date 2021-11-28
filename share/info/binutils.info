@@ -42,7 +42,7 @@ Introduction
 ************
 
 This brief manual contains documentation for the GNU binary utilities
-(ChokiBinUtils) version 2.37.50:
+(CatBinUtils) version 2.37.50:
 
    This document is distributed under the terms of the GNU Free
 Documentation License version 1.3.  A copy of the license is included in
@@ -6011,35 +6011,35 @@ Binutils Index
 
 Tag Table:
 Node: Top1834
-Node: ar3555
-Node: ar cmdline6889
-Node: ar scripts20011
-Node: nm25697
-Node: objcopy41069
-Node: objdump81917
-Node: ranlib117203
-Node: size118802
-Node: strings122771
-Node: strip128321
-Node: c++filt138163
-Ref: c++filt-Footnote-1144024
-Node: addr2line144130
-Node: windmc149808
-Node: windres153467
-Node: dlltool160037
-Node: def file format173034
-Node: readelf175564
-Node: elfedit193852
-Node: Common Options197278
-Node: Selecting the Target System198312
-Node: Target Selection199240
-Node: Architecture Selection201221
-Node: debuginfod202049
-Node: Reporting Bugs202808
-Node: Bug Criteria203570
-Node: Bug Reporting204123
-Node: GNU Free Documentation License210990
-Node: Binutils Index236150
+Node: ar3553
+Node: ar cmdline6887
+Node: ar scripts20009
+Node: nm25695
+Node: objcopy41067
+Node: objdump81915
+Node: ranlib117201
+Node: size118800
+Node: strings122769
+Node: strip128319
+Node: c++filt138161
+Ref: c++filt-Footnote-1144022
+Node: addr2line144128
+Node: windmc149806
+Node: windres153465
+Node: dlltool160035
+Node: def file format173032
+Node: readelf175562
+Node: elfedit193850
+Node: Common Options197276
+Node: Selecting the Target System198310
+Node: Target Selection199238
+Node: Architecture Selection201219
+Node: debuginfod202047
+Node: Reporting Bugs202806
+Node: Bug Criteria203568
+Node: Bug Reporting204121
+Node: GNU Free Documentation License210988
+Node: Binutils Index236148
 
 End Tag Table
 
