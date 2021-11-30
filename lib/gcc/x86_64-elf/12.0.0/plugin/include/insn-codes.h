@@ -2867,7 +2867,7 @@ enum insn_code {
   CODE_FOR_vec_interleave_lowv4si_mask = 6630,
   CODE_FOR_sse4_1_pinsrb = 6631,
   CODE_FOR_sse2_pinsrw = 6632,
-  CODE_FOR_sse4_1_pinsrph = 6633,
+  CODE_FOR_sse2_pinsrph = 6633,
   CODE_FOR_sse4_1_pinsrd = 6634,
   CODE_FOR_sse4_1_pinsrq = 6635,
   CODE_FOR_avx512dq_vinsertf64x2_1_mask = 6641,

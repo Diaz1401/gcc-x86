@@ -3434,7 +3434,7 @@
    && ((unsigned) exact_log2 (INTVAL (operands[3])) \
        < GET_MODE_NUNITS (V8HImode)) \
    && !(V8HImode == V8HFmode && TARGET_AVX2))
-#define HAVE_sse4_1_pinsrph (TARGET_SSE2 \
+#define HAVE_sse2_pinsrph (TARGET_SSE2 \
    && ((unsigned) exact_log2 (INTVAL (operands[3])) \
        < GET_MODE_NUNITS (V8HFmode)) \
    && !(V8HFmode == V8HFmode && TARGET_AVX2))
@@ -13212,7 +13212,7 @@ extern rtx        gen_vec_interleave_lowv4si                      (rtx, rtx, rtx
 extern rtx        gen_vec_interleave_lowv4si_mask                 (rtx, rtx, rtx, rtx, rtx);
 extern rtx        gen_sse4_1_pinsrb                               (rtx, rtx, rtx, rtx);
 extern rtx        gen_sse2_pinsrw                                 (rtx, rtx, rtx, rtx);
-extern rtx        gen_sse4_1_pinsrph                              (rtx, rtx, rtx, rtx);
+extern rtx        gen_sse2_pinsrph                                (rtx, rtx, rtx, rtx);
 extern rtx        gen_sse4_1_pinsrd                               (rtx, rtx, rtx, rtx);
 extern rtx        gen_sse4_1_pinsrq                               (rtx, rtx, rtx, rtx);
 extern rtx        gen_avx512dq_vinsertf64x2_1_mask                (rtx, rtx, rtx, rtx, rtx, rtx);
