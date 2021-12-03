@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "11.2.1 20211130")
+(!version  "11.2.1 20211203")
 (!srcdir  "../../gcc/gcc")
 (!languages 11 ada brig c cp d fortran go jit lto objc objcp)
 (!fileslist 225
@@ -13773,49 +13773,49 @@
                            (!type struct 584 
                             (!type already_seen 583)
                             gc_pointed_to "target_rtl"
-                            (!srcfileloc  "rtl.h" 3896)
+                            (!srcfileloc  "rtl.h" 3904)
                             (!fields 8 
                              (!pair  "x_global_rtl"
                               (!type array 585 nil  gc_used "GR_MAX" 
                                (!type already_seen 100)
                               )
-                              (!srcfileloc  "rtl.h" 3868)
+                              (!srcfileloc  "rtl.h" 3876)
                               nil )
                              (!pair  "x_pic_offset_table_rtx"
                               (!type already_seen 100)
-                              (!srcfileloc  "rtl.h" 3871)
+                              (!srcfileloc  "rtl.h" 3879)
                               nil )
                              (!pair  "x_return_address_pointer_rtx"
                               (!type already_seen 100)
-                              (!srcfileloc  "rtl.h" 3876)
+                              (!srcfileloc  "rtl.h" 3884)
                               nil )
                              (!pair  "x_initial_regno_reg_rtx"
                               (!type array 586 nil  gc_used "FIRST_PSEUDO_REGISTER" 
                                (!type already_seen 100)
                               )
-                              (!srcfileloc  "rtl.h" 3882)
+                              (!srcfileloc  "rtl.h" 3890)
                               nil )
                              (!pair  "x_top_of_stack"
                               (!type array 587 nil  gc_used "MAX_MACHINE_MODE" 
                                (!type already_seen 100)
                               )
-                              (!srcfileloc  "rtl.h" 3885)
+                              (!srcfileloc  "rtl.h" 3893)
                               nil )
                              (!pair  "x_static_reg_base_value"
                               (!type array 588 nil  gc_used "FIRST_PSEUDO_REGISTER" 
                                (!type already_seen 100)
                               )
-                              (!srcfileloc  "rtl.h" 3889)
+                              (!srcfileloc  "rtl.h" 3897)
                               nil )
                              (!pair  "x_mode_mem_attrs"
                               (!type array 589 nil  gc_used "(int) MAX_MACHINE_MODE" 
                                (!type already_seen 226)
                               )
-                              (!srcfileloc  "rtl.h" 3892)
+                              (!srcfileloc  "rtl.h" 3900)
                               nil )
                              (!pair  "target_specific_initialized"
                               (!type already_seen 2)
-                              (!srcfileloc  "rtl.h" 3895)
+                              (!srcfileloc  "rtl.h" 3903)
                               nil )
                             )
                             nil 2047 nil nil )
@@ -17358,15 +17358,15 @@
      (!type struct 826 
       (!type already_seen 825)
       gc_pointed_to "cgraph_rtl_info"
-      (!srcfileloc  "rtl.h" 4536)
+      (!srcfileloc  "rtl.h" 4544)
       (!fields 2 
        (!pair  "preferred_incoming_stack_boundary"
         (!type already_seen 2)
-        (!srcfileloc  "rtl.h" 4531)
+        (!srcfileloc  "rtl.h" 4539)
         nil )
        (!pair  "function_used_regs"
         (!type already_seen 2)
-        (!srcfileloc  "rtl.h" 4535)
+        (!srcfileloc  "rtl.h" 4543)
         nil )
       )
       nil 2047 nil nil )
@@ -27189,7 +27189,7 @@
    (!type already_seen 1919)
   )
   gc_pointed_to "tinst_level"
-  (!srcfileloc  "cp/pt.c" 9483)
+  (!srcfileloc  "cp/pt.c" 9484)
   (!fields 8 
    (!pair  "next"
     (!type already_seen 1920)
@@ -29058,7 +29058,7 @@
    (!type already_seen 2125)
   )
   gc_pointed_to "pending_template"
-  (!srcfileloc  "cp/pt.c" 9492)
+  (!srcfileloc  "cp/pt.c" 9493)
   (!fields 2 
    (!pair  "next"
     (!type already_seen 2126)
@@ -29130,15 +29130,15 @@
    (!type already_seen 2138)
   )
   gc_pointed_to "hash_map<tree,tree_pair_p>"
-  (!srcfileloc  "cp/pt.c" 29194)
+  (!srcfileloc  "cp/pt.c" 29195)
   (!fields 2 
    (!pair  "tree_pair_p"
     (!type already_seen 535)
-    (!srcfileloc  "cp/pt.c" 29194)
+    (!srcfileloc  "cp/pt.c" 29195)
     nil )
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "cp/pt.c" 29194)
+    (!srcfileloc  "cp/pt.c" 29195)
     nil )
   )
  )
@@ -30271,15 +30271,15 @@
   nil )
  (!pair  "hash_map<tree,tree_pair_p>"
   (!type already_seen 2138)
-  (!srcfileloc  "cp/pt.c" 29194)
+  (!srcfileloc  "cp/pt.c" 29195)
   nil )
  (!pair  "pending_template"
   (!type already_seen 2125)
-  (!srcfileloc  "cp/pt.c" 9492)
+  (!srcfileloc  "cp/pt.c" 9493)
   nil )
  (!pair  "tinst_level"
   (!type already_seen 1919)
-  (!srcfileloc  "cp/pt.c" 9483)
+  (!srcfileloc  "cp/pt.c" 9484)
   nil )
  (!pair  "spec_hash_table"
   (!type already_seen 2128)
@@ -32849,15 +32849,15 @@
   nil )
  (!pair  "hash_rtx_callback_function"
   (!type already_seen 2)
-  (!srcfileloc  "rtl.h" 3684)
+  (!srcfileloc  "rtl.h" 3692)
   nil )
  (!pair  "rtx_equal_p_callback_function"
   (!type already_seen 2)
-  (!srcfileloc  "rtl.h" 3679)
+  (!srcfileloc  "rtl.h" 3687)
   nil )
  (!pair  "for_each_inc_dec_fn"
   (!type already_seen 2)
-  (!srcfileloc  "rtl.h" 3675)
+  (!srcfileloc  "rtl.h" 3683)
   nil )
  (!pair  "rtx_to_poly_wide_ref"
   (!type already_seen 915)
@@ -34602,60 +34602,60 @@
   nil )
  (!pair  "dguide_cache"
   (!type already_seen 2139)
-  (!srcfileloc  "cp/pt.c" 29194)
+  (!srcfileloc  "cp/pt.c" 29195)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "explicit_specifier_map"
   (!type already_seen 931)
-  (!srcfileloc  "cp/pt.c" 13764)
+  (!srcfileloc  "cp/pt.c" 13765)
   (!options 
    (!option cache string  "")
   )
  )
  (!pair  "defarg_inst"
   (!type already_seen 931)
-  (!srcfileloc  "cp/pt.c" 13648)
+  (!srcfileloc  "cp/pt.c" 13649)
   (!options 
    (!option cache string  "")
   )
  )
  (!pair  "last_error_tinst_level"
   (!type already_seen 1920)
-  (!srcfileloc  "cp/pt.c" 10921)
+  (!srcfileloc  "cp/pt.c" 10922)
   nil )
  (!pair  "pending_template_freelist_head"
   (!type already_seen 2126)
-  (!srcfileloc  "cp/pt.c" 9492)
+  (!srcfileloc  "cp/pt.c" 9493)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "tinst_level_freelist_head"
   (!type already_seen 1920)
-  (!srcfileloc  "cp/pt.c" 9483)
+  (!srcfileloc  "cp/pt.c" 9484)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "tree_list_freelist_head"
   (!type already_seen 23)
-  (!srcfileloc  "cp/pt.c" 9474)
+  (!srcfileloc  "cp/pt.c" 9475)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "defaulted_ttp_cache"
   (!type already_seen 392)
-  (!srcfileloc  "cp/pt.c" 7786)
+  (!srcfileloc  "cp/pt.c" 7787)
   (!options 
    (!option deletable string  "")
   )
  )
  (!pair  "tparm_obj_values"
   (!type already_seen 392)
-  (!srcfileloc  "cp/pt.c" 7135)
+  (!srcfileloc  "cp/pt.c" 7136)
   nil )
  (!pair  "canonical_template_parms"
   (!type already_seen 84)
@@ -36840,31 +36840,31 @@
   nil )
  (!pair  "stack_limit_rtx"
   (!type already_seen 100)
-  (!srcfileloc  "rtl.h" 4466)
+  (!srcfileloc  "rtl.h" 4474)
   nil )
  (!pair  "default_target_rtl"
   (!type already_seen 584)
-  (!srcfileloc  "rtl.h" 3898)
+  (!srcfileloc  "rtl.h" 3906)
   nil )
  (!pair  "invalid_insn_rtx"
   (!type already_seen 295)
-  (!srcfileloc  "rtl.h" 3796)
+  (!srcfileloc  "rtl.h" 3804)
   nil )
  (!pair  "simple_return_rtx"
   (!type already_seen 100)
-  (!srcfileloc  "rtl.h" 3795)
+  (!srcfileloc  "rtl.h" 3803)
   nil )
  (!pair  "ret_rtx"
   (!type already_seen 100)
-  (!srcfileloc  "rtl.h" 3794)
+  (!srcfileloc  "rtl.h" 3802)
   nil )
  (!pair  "cc0_rtx"
   (!type already_seen 100)
-  (!srcfileloc  "rtl.h" 3793)
+  (!srcfileloc  "rtl.h" 3801)
   nil )
  (!pair  "pc_rtx"
   (!type already_seen 100)
-  (!srcfileloc  "rtl.h" 3792)
+  (!srcfileloc  "rtl.h" 3800)
   nil )
  (!pair  "const_tiny_rtx"
   (!type array 2314 nil  gc_used "4" 
@@ -36872,17 +36872,17 @@
     (!type already_seen 100)
    )
   )
-  (!srcfileloc  "rtl.h" 3779)
+  (!srcfileloc  "rtl.h" 3787)
   nil )
  (!pair  "const_true_rtx"
   (!type already_seen 100)
-  (!srcfileloc  "rtl.h" 3777)
+  (!srcfileloc  "rtl.h" 3785)
   nil )
  (!pair  "const_int_rtx"
   (!type array 2316 nil  gc_used "MAX_SAVED_CONST_INT * 2 + 1" 
    (!type already_seen 100)
   )
-  (!srcfileloc  "rtl.h" 3771)
+  (!srcfileloc  "rtl.h" 3779)
   nil )
  (!pair  "gcov_fn_info_ptr_type"
   (!type already_seen 23)
