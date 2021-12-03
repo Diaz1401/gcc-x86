@@ -2603,10 +2603,10 @@
 #define HAVE_avx512f_vec_dupv8df_1 (TARGET_AVX512F)
 #define HAVE_vec_setv4si_0 (TARGET_SSE)
 #define HAVE_vec_setv4sf_0 (TARGET_SSE)
-#define HAVE_vec_setv8hi_0 (TARGET_AVX512FP16)
+#define HAVE_vec_setv8hi_0 (TARGET_SSE2)
+#define HAVE_vec_setv8hf_0 (TARGET_SSE2)
 #define HAVE_vec_setv16hi_0 (TARGET_AVX512FP16)
 #define HAVE_vec_setv32hi_0 (TARGET_AVX512FP16)
-#define HAVE_vec_setv8hf_0 (TARGET_AVX512FP16)
 #define HAVE_vec_setv16hf_0 (TARGET_AVX512FP16)
 #define HAVE_vec_setv32hf_0 (TARGET_AVX512FP16)
 #define HAVE_avx512fp16_movsh (TARGET_AVX512FP16)
@@ -3428,24 +3428,19 @@
 #define HAVE_vec_interleave_lowv4si_mask ((TARGET_AVX512F) && (TARGET_SSE2 && TARGET_AVX512VL))
 #define HAVE_sse4_1_pinsrb ((TARGET_SSE2 \
    && ((unsigned) exact_log2 (INTVAL (operands[3])) \
-       < GET_MODE_NUNITS (V16QImode)) \
-   && !(V16QImode == V8HFmode && TARGET_AVX2)) && (TARGET_SSE4_1))
+       < GET_MODE_NUNITS (V16QImode))) && (TARGET_SSE4_1))
 #define HAVE_sse2_pinsrw (TARGET_SSE2 \
    && ((unsigned) exact_log2 (INTVAL (operands[3])) \
-       < GET_MODE_NUNITS (V8HImode)) \
-   && !(V8HImode == V8HFmode && TARGET_AVX2))
+       < GET_MODE_NUNITS (V8HImode)))
 #define HAVE_sse2_pinsrph (TARGET_SSE2 \
    && ((unsigned) exact_log2 (INTVAL (operands[3])) \
-       < GET_MODE_NUNITS (V8HFmode)) \
-   && !(V8HFmode == V8HFmode && TARGET_AVX2))
+       < GET_MODE_NUNITS (V8HFmode)))
 #define HAVE_sse4_1_pinsrd ((TARGET_SSE2 \
    && ((unsigned) exact_log2 (INTVAL (operands[3])) \
-       < GET_MODE_NUNITS (V4SImode)) \
-   && !(V4SImode == V8HFmode && TARGET_AVX2)) && (TARGET_SSE4_1))
+       < GET_MODE_NUNITS (V4SImode))) && (TARGET_SSE4_1))
 #define HAVE_sse4_1_pinsrq ((TARGET_SSE2 \
    && ((unsigned) exact_log2 (INTVAL (operands[3])) \
-       < GET_MODE_NUNITS (V2DImode)) \
-   && !(V2DImode == V8HFmode && TARGET_AVX2)) && (TARGET_SSE4_1 && TARGET_64BIT))
+       < GET_MODE_NUNITS (V2DImode))) && (TARGET_SSE4_1 && TARGET_64BIT))
 #define HAVE_avx512dq_vinsertf64x2_1_mask ((TARGET_AVX512F) && ((TARGET_AVX512F) && (TARGET_AVX512DQ)))
 #define HAVE_avx512dq_vinserti64x2_1_mask ((TARGET_AVX512F) && ((TARGET_AVX512F) && (TARGET_AVX512DQ)))
 #define HAVE_avx512f_vinsertf32x4_1_mask (TARGET_AVX512F)
@@ -12462,9 +12457,9 @@ extern rtx        gen_avx512f_vec_dupv8df_1                       (rtx, rtx);
 extern rtx        gen_vec_setv4si_0                               (rtx, rtx, rtx);
 extern rtx        gen_vec_setv4sf_0                               (rtx, rtx, rtx);
 extern rtx        gen_vec_setv8hi_0                               (rtx, rtx, rtx);
+extern rtx        gen_vec_setv8hf_0                               (rtx, rtx, rtx);
 extern rtx        gen_vec_setv16hi_0                              (rtx, rtx, rtx);
 extern rtx        gen_vec_setv32hi_0                              (rtx, rtx, rtx);
-extern rtx        gen_vec_setv8hf_0                               (rtx, rtx, rtx);
 extern rtx        gen_vec_setv16hf_0                              (rtx, rtx, rtx);
 extern rtx        gen_vec_setv32hf_0                              (rtx, rtx, rtx);
 extern rtx        gen_avx512fp16_movsh                            (rtx, rtx, rtx);
