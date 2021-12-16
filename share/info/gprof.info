@@ -27,7 +27,7 @@ to determine which parts of a program are taking most of the execution
 time.  We assume that you know how to write, compile, and execute
 programs.  GNU 'gprof' was written by Jay Fenlason.
 
-   This manual is for 'gprof' (CatBinUtils) version 2.37.50.
+   This manual is for 'gprof' (CatBinUtils) version 2.37.
 
    This document is distributed under the terms of the GNU Free
 Documentation License version 1.3.  A copy of the license is included in
@@ -2426,35 +2426,35 @@ their use in free software.
 
 Tag Table:
 Node: Top719
-Node: Introduction2044
-Node: Compiling4535
-Node: Executing8591
-Node: Invoking11484
-Node: Output Options12899
-Node: Analysis Options19991
-Node: Miscellaneous Options23911
-Node: Deprecated Options25165
-Node: Symspecs27228
-Node: Output29054
-Node: Flat Profile30094
-Node: Call Graph35047
-Node: Primary38279
-Node: Callers40867
-Node: Subroutines42985
-Node: Cycles44826
-Node: Line-by-line51603
-Node: Annotated Source55679
-Node: Inaccuracy58677
-Node: Sampling Error58935
-Node: Assumptions61839
-Node: How do I?63309
-Node: Incompatibilities64866
-Node: Details66360
-Node: Implementation66753
-Node: File Format72652
-Node: Internals76944
-Node: Debugging85434
-Node: GNU Free Documentation License87024
+Node: Introduction2041
+Node: Compiling4532
+Node: Executing8588
+Node: Invoking11481
+Node: Output Options12896
+Node: Analysis Options19988
+Node: Miscellaneous Options23908
+Node: Deprecated Options25162
+Node: Symspecs27225
+Node: Output29051
+Node: Flat Profile30091
+Node: Call Graph35044
+Node: Primary38276
+Node: Callers40864
+Node: Subroutines42982
+Node: Cycles44823
+Node: Line-by-line51600
+Node: Annotated Source55676
+Node: Inaccuracy58674
+Node: Sampling Error58932
+Node: Assumptions61836
+Node: How do I?63306
+Node: Incompatibilities64863
+Node: Details66357
+Node: Implementation66750
+Node: File Format72649
+Node: Internals76941
+Node: Debugging85431
+Node: GNU Free Documentation License87021
 
 End Tag Table
 
