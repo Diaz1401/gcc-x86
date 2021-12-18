@@ -1048,7 +1048,7 @@
 /* Define to 1 if we found a declaration for 'mallinfo2', otherwise define to
    0. */
 #ifndef USED_FOR_TARGET
-#define HAVE_DECL_MALLINFO2 1
+#define HAVE_DECL_MALLINFO2 0
 #endif
 
 
@@ -1826,7 +1826,7 @@
 
 /* Define to 1 if you have the `mallinfo2' function. */
 #ifndef USED_FOR_TARGET
-#define HAVE_MALLINFO2 1
+/* #undef HAVE_MALLINFO2 */
 #endif
 
 
