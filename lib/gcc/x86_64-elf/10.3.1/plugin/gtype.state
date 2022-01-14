@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "10.3.1 20220107")
+(!version  "10.3.1 20220114")
 (!srcdir  "../../gcc/gcc")
 (!languages 11 ada brig c cp d fortran go jit lto objc objcp)
 (!fileslist 220
@@ -7930,7 +7930,7 @@
                                 (!fields 2 
                                  (!pair  "int"
                                   (!type undefined 378 nil  gc_unused "int"
-                                   (!srcfileloc  "coretypes.h" 352)
+                                   (!srcfileloc  "coretypes.h" 354)
                                   )
                                   (!srcfileloc  "except.h" 204)
                                   nil )
@@ -17695,25 +17695,25 @@
   nil 0 nil nil )
  
  (!type user_struct 856 nil  gc_unused "std::pair<tree,tree>"
-  (!srcfileloc  "coretypes.h" 351)
+  (!srcfileloc  "coretypes.h" 353)
   (!fields 2 
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "coretypes.h" 351)
+    (!srcfileloc  "coretypes.h" 353)
     nil )
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "coretypes.h" 351)
+    (!srcfileloc  "coretypes.h" 353)
     nil )
   )
  )
  
  (!type user_struct 857 nil  gc_unused "std::pair<char*,int>"
-  (!srcfileloc  "coretypes.h" 352)
+  (!srcfileloc  "coretypes.h" 354)
   (!fields 1 
    (!pair  "int"
     (!type already_seen 378)
-    (!srcfileloc  "coretypes.h" 352)
+    (!srcfileloc  "coretypes.h" 354)
     nil )
   )
  )
@@ -31697,59 +31697,59 @@
   nil )
  (!pair  "uchar"
   (!type already_seen 8)
-  (!srcfileloc  "coretypes.h" 427)
+  (!srcfileloc  "coretypes.h" 429)
   nil )
  (!pair  "gt_pointer_operator"
   (!type already_seen 2)
-  (!srcfileloc  "coretypes.h" 424)
+  (!srcfileloc  "coretypes.h" 426)
   nil )
  (!pair  "complex_mode"
   (!type already_seen 737)
-  (!srcfileloc  "coretypes.h" 379)
+  (!srcfileloc  "coretypes.h" 381)
   nil )
  (!pair  "string_int_pair"
   (!type already_seen 857)
-  (!srcfileloc  "coretypes.h" 352)
+  (!srcfileloc  "coretypes.h" 354)
   nil )
  (!pair  "int"
   (!type already_seen 378)
-  (!srcfileloc  "coretypes.h" 352)
+  (!srcfileloc  "coretypes.h" 354)
   nil )
  (!pair  "std::pair<char*,int>"
   (!type already_seen 857)
-  (!srcfileloc  "coretypes.h" 352)
+  (!srcfileloc  "coretypes.h" 354)
   nil )
  (!pair  "tree_pair"
   (!type already_seen 856)
-  (!srcfileloc  "coretypes.h" 351)
+  (!srcfileloc  "coretypes.h" 353)
   nil )
  (!pair  "std::pair<tree,tree>"
   (!type already_seen 856)
-  (!srcfileloc  "coretypes.h" 351)
+  (!srcfileloc  "coretypes.h" 353)
   nil )
  (!pair  "reg_class_t"
   (!type already_seen 2)
-  (!srcfileloc  "coretypes.h" 343)
+  (!srcfileloc  "coretypes.h" 345)
   nil )
  (!pair  "const_basic_block"
   (!type already_seen 267)
-  (!srcfileloc  "coretypes.h" 323)
+  (!srcfileloc  "coretypes.h" 325)
   nil )
  (!pair  "basic_block"
   (!type already_seen 267)
-  (!srcfileloc  "coretypes.h" 322)
+  (!srcfileloc  "coretypes.h" 324)
   nil )
  (!pair  "const_edge"
   (!type already_seen 271)
-  (!srcfileloc  "coretypes.h" 320)
+  (!srcfileloc  "coretypes.h" 322)
   nil )
  (!pair  "edge"
   (!type already_seen 271)
-  (!srcfileloc  "coretypes.h" 319)
+  (!srcfileloc  "coretypes.h" 321)
   nil )
  (!pair  "alias_set_type"
   (!type already_seen 2)
-  (!srcfileloc  "coretypes.h" 316)
+  (!srcfileloc  "coretypes.h" 318)
   nil )
  (!pair  "addr_space_t"
   (!type already_seen 8)
