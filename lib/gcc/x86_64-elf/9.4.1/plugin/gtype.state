@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "9.4.1 20220107")
+(!version  "9.4.1 20220114")
 (!srcdir  "../../gcc/gcc")
 (!languages 11 ada brig c cp d fortran go jit lto objc objcp)
 (!fileslist 208
@@ -16542,15 +16542,15 @@
   nil 0 nil nil )
  
  (!type user_struct 837 nil  gc_unused "std::pair<tree,tree>"
-  (!srcfileloc  "coretypes.h" 334)
+  (!srcfileloc  "coretypes.h" 336)
   (!fields 2 
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "coretypes.h" 334)
+    (!srcfileloc  "coretypes.h" 336)
     nil )
    (!pair  "tree"
     (!type already_seen 23)
-    (!srcfileloc  "coretypes.h" 334)
+    (!srcfileloc  "coretypes.h" 336)
     nil )
   )
  )
@@ -29663,47 +29663,47 @@
   nil )
  (!pair  "uchar"
   (!type already_seen 8)
-  (!srcfileloc  "coretypes.h" 408)
+  (!srcfileloc  "coretypes.h" 410)
   nil )
  (!pair  "gt_pointer_operator"
   (!type already_seen 2)
-  (!srcfileloc  "coretypes.h" 405)
+  (!srcfileloc  "coretypes.h" 407)
   nil )
  (!pair  "complex_mode"
   (!type already_seen 726)
-  (!srcfileloc  "coretypes.h" 361)
+  (!srcfileloc  "coretypes.h" 363)
   nil )
  (!pair  "tree_pair"
   (!type already_seen 837)
-  (!srcfileloc  "coretypes.h" 334)
+  (!srcfileloc  "coretypes.h" 336)
   nil )
  (!pair  "std::pair<tree,tree>"
   (!type already_seen 837)
-  (!srcfileloc  "coretypes.h" 334)
+  (!srcfileloc  "coretypes.h" 336)
   nil )
  (!pair  "reg_class_t"
   (!type already_seen 2)
-  (!srcfileloc  "coretypes.h" 326)
+  (!srcfileloc  "coretypes.h" 328)
   nil )
  (!pair  "const_basic_block"
   (!type already_seen 318)
-  (!srcfileloc  "coretypes.h" 306)
+  (!srcfileloc  "coretypes.h" 308)
   nil )
  (!pair  "basic_block"
   (!type already_seen 318)
-  (!srcfileloc  "coretypes.h" 305)
+  (!srcfileloc  "coretypes.h" 307)
   nil )
  (!pair  "const_edge"
   (!type already_seen 322)
-  (!srcfileloc  "coretypes.h" 303)
+  (!srcfileloc  "coretypes.h" 305)
   nil )
  (!pair  "edge"
   (!type already_seen 322)
-  (!srcfileloc  "coretypes.h" 302)
+  (!srcfileloc  "coretypes.h" 304)
   nil )
  (!pair  "alias_set_type"
   (!type already_seen 2)
-  (!srcfileloc  "coretypes.h" 299)
+  (!srcfileloc  "coretypes.h" 301)
   nil )
  (!pair  "addr_space_t"
   (!type already_seen 8)
