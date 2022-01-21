@@ -21,7 +21,7 @@
 # Basic information
 target=x86_64-pc-elf
 target_noncanonical=x86_64-elf
-version=12.0.0
+version=12.0.1
 
 VERBOSE=0
 while [ x$1 = x-v ] ; do
